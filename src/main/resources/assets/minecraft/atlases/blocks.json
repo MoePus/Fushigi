@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "fushigi:fluid/red_grapejuice_still"
+    },
+    {
+      "type": "single",
+      "resource": "fushigi:fluid/red_grapejuice_flow"
+    },
+    {
+      "type": "single",
+      "resource": "fushigi:fluid/white_grapejuice_still"
+    },
+    {
+      "type": "single",
+      "resource": "fushigi:fluid/white_grapejuice_flow"
+    }
+  ]
+}

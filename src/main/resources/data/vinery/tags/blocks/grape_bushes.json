@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "vinery:red_grape_bush",
+    "vinery:white_grape_bush",
+    "vinery:savanna_grape_bush_red",
+    "vinery:savanna_grape_bush_white",
+    "vinery:taiga_grape_bush_red",
+    "vinery:taiga_grape_bush_white"
+  ]
+}

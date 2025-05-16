@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.moepus.fushigi.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fushigi.refmap.json",
+  "mixins": [
+    "Create.VanillaFluidTargetsMixin",
+    "Vinery.GrapeTypeMixin",
+    "Vinery.GrapevinePotBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
