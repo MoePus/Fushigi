@@ -15,7 +15,8 @@ public abstract class GrapevinePotBlockMixin {
             at = @At(
                     value = "INVOKE",
                     target = "Lnet/minecraft/world/level/Level;setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Z"
-            )
+            ),
+            remap = true
     )
     private boolean redirectSetBlock(Level world, BlockPos pos, BlockState state, int flags) {
         if (world.random.nextFloat() < 0.3) {
