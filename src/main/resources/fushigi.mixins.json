@@ -7,7 +7,9 @@
   "mixins": [
     "Create.VanillaFluidTargetsMixin",
     "Vinery.GrapeTypeMixin",
-    "Vinery.GrapevinePotBlockMixin"
+    "Vinery.GrapevinePotBlockMixin",
+    "Vinery.ObjectRegistryMixin",
+    "Vinery.GrapejuiceBottleItemMixin"
   ],
   "client": [
   ],

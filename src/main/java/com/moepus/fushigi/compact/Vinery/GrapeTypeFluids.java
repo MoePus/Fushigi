@@ -11,11 +11,11 @@ public class GrapeTypeFluids {
             "none", FSGFluids.RED_GRAPEJUICE,
             "red", FSGFluids.RED_GRAPEJUICE,
             "white", FSGFluids.WHITE_GRAPEJUICE,
-            "savanna_red", FSGFluids.SAVANNA_RED_GRAPEJUICE,
-            "savanna_white", FSGFluids.SAVANNA_WHITE_GRAPEJUICE,
-            "taiga_red", FSGFluids.TAIGA_RED_GRAPEJUICE,
-            "taiga_white", FSGFluids.TAIGA_WHITE_GRAPEJUICE,
-            "jungle_red", FSGFluids.JUNGLE_RED_GRAPEJUICE,
-            "jungle_white", FSGFluids.JUNGLE_WHITE_GRAPEJUICE
+            "savanna_red", FSGFluids.RED_SAVANNA_GRAPEJUICE,
+            "savanna_white", FSGFluids.WHITE_SAVANNA_GRAPEJUICE,
+            "taiga_red", FSGFluids.RED_TAIGA_GRAPEJUICE,
+            "taiga_white", FSGFluids.WHITE_TAIGA_GRAPEJUICE,
+            "jungle_red", FSGFluids.RED_JUNGLE_GRAPEJUICE,
+            "jungle_white", FSGFluids.WHITE_JUNGLE_GRAPEJUICE
     );
 }

@@ -18,38 +18,38 @@ public class FSGFluids {
                     .lang("White Grape Juice")
                     .register();
 
-    public static final FluidEntry<VirtualFluid> SAVANNA_RED_GRAPEJUICE =
-            REGISTRATE.virtualFluid("savanna_red_grapejuice",
+    public static final FluidEntry<VirtualFluid> RED_SAVANNA_GRAPEJUICE =
+            REGISTRATE.virtualFluid("red_savanna_grapejuice",
                             Fushigi.rl("fluid/red_grapejuice_still"), Fushigi.rl("fluid/red_grapejuice_flow"))
                     .lang("Savanna Red Grape Juice")
                     .register();
 
-    public static final FluidEntry<VirtualFluid> SAVANNA_WHITE_GRAPEJUICE =
-            REGISTRATE.virtualFluid("savanna_white_grapejuice",
+    public static final FluidEntry<VirtualFluid> WHITE_SAVANNA_GRAPEJUICE =
+            REGISTRATE.virtualFluid("white_savanna_grapejuice",
                             Fushigi.rl("fluid/white_grapejuice_still"), Fushigi.rl("fluid/white_grapejuice_flow"))
                     .lang("Savanna White Grape Juice")
                     .register();
 
-    public static final FluidEntry<VirtualFluid> TAIGA_RED_GRAPEJUICE =
-            REGISTRATE.virtualFluid("taiga_red_grapejuice",
+    public static final FluidEntry<VirtualFluid> RED_TAIGA_GRAPEJUICE =
+            REGISTRATE.virtualFluid("red_taiga_grapejuice",
                             Fushigi.rl("fluid/red_grapejuice_still"), Fushigi.rl("fluid/red_grapejuice_flow"))
                     .lang("Taiga Red Grape Juice")
                     .register();
 
-    public static final FluidEntry<VirtualFluid> TAIGA_WHITE_GRAPEJUICE =
-            REGISTRATE.virtualFluid("taiga_white_grapejuice",
+    public static final FluidEntry<VirtualFluid> WHITE_TAIGA_GRAPEJUICE =
+            REGISTRATE.virtualFluid("white_taiga_grapejuice",
                             Fushigi.rl("fluid/white_grapejuice_still"), Fushigi.rl("fluid/white_grapejuice_flow"))
                     .lang("Taiga White Grape Juice")
                     .register();
 
-    public static final FluidEntry<VirtualFluid> JUNGLE_RED_GRAPEJUICE =
-            REGISTRATE.virtualFluid("jungle_red_grapejuice",
+    public static final FluidEntry<VirtualFluid> RED_JUNGLE_GRAPEJUICE =
+            REGISTRATE.virtualFluid("red_jungle_grapejuice",
                             Fushigi.rl("fluid/red_grapejuice_still"), Fushigi.rl("fluid/red_grapejuice_flow"))
                     .lang("Jungle Red Grape Juice")
                     .register();
 
-    public static final FluidEntry<VirtualFluid> JUNGLE_WHITE_GRAPEJUICE =
-            REGISTRATE.virtualFluid("jungle_white_grapejuice",
+    public static final FluidEntry<VirtualFluid> WHITE_JUNGLE_GRAPEJUICE =
+            REGISTRATE.virtualFluid("white_jungle_grapejuice",
                             Fushigi.rl("fluid/white_grapejuice_still"), Fushigi.rl("fluid/white_grapejuice_flow"))
                     .lang("Jungle White Grape Juice")
                     .register();

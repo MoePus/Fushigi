@@ -1,0 +1,7 @@
+{
+	"parent": "fushigi:block/short_wine_bottle",
+	"textures": {
+		"1": "fushigi:block/wine/white_taiga_grapejuice",
+		"particle": "fushigi:block/wine/white_taiga_grapejuice"
+	}
+}

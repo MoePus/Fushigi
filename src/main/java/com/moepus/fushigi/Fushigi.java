@@ -24,6 +24,9 @@ public class Fushigi {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         FSGFluids.register();
+        FSGBlocks.register();
+        CreativeTab.register(modEventBus);
+
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::commonSetup);
@@ -31,6 +34,9 @@ public class Fushigi {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            FSGBehaviours.register();
+        });
     }
 
     public static ResourceLocation rl(String path){
