@@ -3,7 +3,6 @@ package com.moepus.fushigi.compact.JEI;
 import com.moepus.fushigi.FSGBlocks;
 import com.moepus.fushigi.compact.Create.WineBottlingRecipe;
 import com.simibubi.create.compat.jei.category.CreateRecipeCategory;
-import com.simibubi.create.compat.jei.category.animations.AnimatedSpout;
 import com.simibubi.create.content.processing.recipe.ProcessingOutput;
 import com.simibubi.create.foundation.gui.AllGuiTextures;
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;

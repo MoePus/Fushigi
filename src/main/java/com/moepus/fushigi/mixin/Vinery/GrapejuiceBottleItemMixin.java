@@ -1,8 +1,10 @@
 package com.moepus.fushigi.mixin.Vinery;
 
+import com.moepus.fushigi.Fushigi;
 import com.moepus.fushigi.compact.Vinery.Blocks.IWrappedBottle;
-import com.moepus.fushigi.compact.Vinery.Blocks.SimpleWineBottleBlock;
+import com.moepus.fushigi.util.ItemUtil;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
@@ -20,10 +22,9 @@ public abstract class GrapejuiceBottleItemMixin extends Item implements IWrapped
     @Override
     public @NotNull InteractionResult useOn(@NotNull UseOnContext useOnContext) {
         ItemStack bottle = useOnContext.getItemInHand();
-        Block targetBlock = SimpleWineBottleBlock.getItem2BlockMap().get(bottle.getItem());
-        if (targetBlock==null) {
-            return InteractionResult.PASS;
-        }
+        Item bottleItem = bottle.getItem();
+        Item FSGBottleItem = ItemUtil.GetItem(Fushigi.rl(ItemUtil.GetId(bottleItem).getPath()));
+        Block targetBlock = ((BlockItem) FSGBottleItem).getBlock();
         return this.useOn(useOnContext, targetBlock);
     }
 }

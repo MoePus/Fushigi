@@ -3,7 +3,9 @@ package com.moepus.fushigi.compact.Create;
 import com.moepus.fushigi.FSGBlocks;
 import com.moepus.fushigi.FSGFluids;
 import com.moepus.fushigi.FSGRecipeTypes;
+import com.moepus.fushigi.Fushigi;
 import com.moepus.fushigi.compact.Vinery.Blocks.SimpleWineBottleBlock;
+import com.moepus.fushigi.util.ItemUtil;
 import com.simibubi.create.AllRecipeTypes;
 import com.simibubi.create.api.behaviour.spouting.BlockSpoutingBehaviour;
 import com.simibubi.create.api.registry.SimpleRegistry;
@@ -16,6 +18,8 @@ import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.Container;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.level.Level;
@@ -65,9 +69,9 @@ public enum WineBottlingBehaviour implements BlockSpoutingBehaviour {
             if (results.isEmpty())
                 return 0;
             ItemStack result = results.get(0);
-            Block targetBlock = SimpleWineBottleBlock.getItem2BlockMap().get(result.getItem());
-            if (targetBlock == null)
-                return 0;
+            Item bottleItem = result.getItem();
+            Item FSGBottleItem = ItemUtil.GetItem(Fushigi.rl(ItemUtil.GetId(bottleItem).getPath()));
+            Block targetBlock = ((BlockItem) FSGBottleItem).getBlock();
             level.setBlockAndUpdate(pos, targetBlock.defaultBlockState());
         }
 

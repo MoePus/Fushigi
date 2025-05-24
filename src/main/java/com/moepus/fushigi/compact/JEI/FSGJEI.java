@@ -1,6 +1,5 @@
 package com.moepus.fushigi.compact.JEI;
 
-import com.google.common.collect.ImmutableList;
 import com.moepus.fushigi.FSGRecipeTypes;
 import com.moepus.fushigi.Fushigi;
 import com.moepus.fushigi.compact.Create.WineBottlingRecipe;
@@ -19,11 +18,9 @@ import net.createmod.catnip.config.ConfigBase;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.ItemLike;
-import net.minecraft.world.level.material.Fluid;
 import net.satisfy.vinery.core.registry.ObjectRegistry;
 
 import javax.annotation.ParametersAreNonnullByDefault;
