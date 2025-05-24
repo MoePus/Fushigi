@@ -5,6 +5,7 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -25,8 +26,10 @@ public class Fushigi {
 
         FSGFluids.register();
         FSGBlocks.register();
+        FSGRecipeTypes.register(modEventBus);
         CreativeTab.register(modEventBus);
 
+        modEventBus.addListener(EventPriority.LOWEST, FSGDataGen::gatherData);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::commonSetup);
@@ -40,7 +43,7 @@ public class Fushigi {
     }
 
     public static ResourceLocation rl(String path){
-        return new ResourceLocation(MODID, path);
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 
     public static Component lang(String path, Object... args) {

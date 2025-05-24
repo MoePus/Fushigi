@@ -1,0 +1,15 @@
+{
+  "type": "fushigi:wine_bottling",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "fushigi:red_savanna_grapejuice",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "vinery:red_savanna_grapejuice"
+    }
+  ]
+}

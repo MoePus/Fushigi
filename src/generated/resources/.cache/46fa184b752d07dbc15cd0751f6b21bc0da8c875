@@ -1,0 +1,12 @@
+// 1.20.1	2025-05-24T21:27:27.1037385	Registrate Provider for fushigi [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+04d0934528533ced6a44da880783b56901cd2f9c assets/fushigi/lang/en_ud.json
+292b3caf9246a600e4b4bd36166a83a4a71cf43b assets/fushigi/lang/en_us.json
+3d20ca5ba0e0c18861b7bccc67dbbe8375faa5ea data/fushigi/loot_tables/blocks/red_grapejuice.json
+47f25fc5ccb75f0d611b736f06130895bb961dec data/fushigi/loot_tables/blocks/red_jungle_grapejuice.json
+418508bd6f03c88d6909d8b94a4fe37b65935d77 data/fushigi/loot_tables/blocks/red_savanna_grapejuice.json
+50c0a31426e6fafdce8b0689e83a539cbdebcfac data/fushigi/loot_tables/blocks/red_taiga_grapejuice.json
+fcfc2c7841917d09979ed652432e201f72801b63 data/fushigi/loot_tables/blocks/white_grapejuice.json
+9ece6addcda3cd7a682eeafaa03763f9ddb4ebbb data/fushigi/loot_tables/blocks/white_jungle_grapejuice.json
+f0c69a0be04f1b30e29da28ce0ae9990ab5adfd6 data/fushigi/loot_tables/blocks/white_savanna_grapejuice.json
+c392fd9b7fa4e509c423d15029b8f14372b6a193 data/fushigi/loot_tables/blocks/white_taiga_grapejuice.json
+87f7b8ea4a4f4160106c9c063545885dce10bff1 data/fushigi/loot_tables/blocks/wine_bottle.json

@@ -1,0 +1,15 @@
+{
+  "type": "fushigi:wine_bottling",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "fushigi:white_jungle_grapejuice",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "vinery:white_jungle_grapejuice"
+    }
+  ]
+}

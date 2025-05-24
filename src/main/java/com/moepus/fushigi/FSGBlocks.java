@@ -13,7 +13,10 @@ public class FSGBlocks {
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
             .lang("Wine Bottle")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static final BlockEntry<SimpleWineBottleBlock> RED_GRAPEJUICE = REGISTRATE.block("red_grapejuice", SimpleWineBottleBlock::new)
@@ -21,7 +24,10 @@ public class FSGBlocks {
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
             .lang("Red Grape Juice")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static final BlockEntry<SimpleWineBottleBlock> WHITE_GRAPEJUICE = REGISTRATE.block("white_grapejuice", SimpleWineBottleBlock::new)
@@ -29,61 +35,76 @@ public class FSGBlocks {
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
             .lang("White Grape Juice")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static final BlockEntry<SimpleWineBottleBlock> RED_SAVANNA_GRAPEJUICE = REGISTRATE.block("red_savanna_grapejuice", SimpleWineBottleBlock::new)
             .initialProperties(() -> Blocks.GLASS)
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
-            .addLayer(() -> RenderType::cutoutMipped)
             .lang("Red Savanna Grape Juice")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static final BlockEntry<SimpleWineBottleBlock> WHITE_SAVANNA_GRAPEJUICE = REGISTRATE.block("white_savanna_grapejuice", SimpleWineBottleBlock::new)
             .initialProperties(() -> Blocks.GLASS)
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
-            .addLayer(() -> RenderType::cutoutMipped)
             .lang("White Savanna Grape Juice")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static final BlockEntry<SimpleWineBottleBlock> RED_TAIGA_GRAPEJUICE = REGISTRATE.block("red_taiga_grapejuice", SimpleWineBottleBlock::new)
             .initialProperties(() -> Blocks.GLASS)
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
-            .addLayer(() -> RenderType::cutoutMipped)
             .lang("Red Taiga Grape Juice")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static final BlockEntry<SimpleWineBottleBlock> WHITE_TAIGA_GRAPEJUICE = REGISTRATE.block("white_taiga_grapejuice", SimpleWineBottleBlock::new)
             .initialProperties(() -> Blocks.GLASS)
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
-            .addLayer(() -> RenderType::cutoutMipped)
             .lang("White Taiga Grape Juice")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static final BlockEntry<SimpleWineBottleBlock> RED_JUNGLE_GRAPEJUICE = REGISTRATE.block("red_jungle_grapejuice", SimpleWineBottleBlock::new)
             .initialProperties(() -> Blocks.GLASS)
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
-            .addLayer(() -> RenderType::cutoutMipped)
             .lang("Red Jungle Grape Juice")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static final BlockEntry<SimpleWineBottleBlock> WHITE_JUNGLE_GRAPEJUICE = REGISTRATE.block("white_jungle_grapejuice", SimpleWineBottleBlock::new)
             .initialProperties(() -> Blocks.GLASS)
             .properties(p -> p.noOcclusion())
             .properties(p -> p.instabreak())
-            .addLayer(() -> RenderType::cutoutMipped)
             .lang("White Jungle Grape Juice")
-            .simpleItem()
+            .blockstate((c, p) -> {})
+            .item()
+            .model((c, p) -> {})
+            .build()
             .register();
 
     public static void register() {

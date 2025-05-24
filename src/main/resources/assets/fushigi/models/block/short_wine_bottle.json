@@ -4,6 +4,7 @@
 		"1": "fushigi:block/wine/red_taiga_grapejuice",
 		"particle": "fushigi:block/wine/red_taiga_grapejuice"
 	},
+	"render_type": "cutout",
 	"elements": [
 		{
 			"from": [7, 8.2, 7],
